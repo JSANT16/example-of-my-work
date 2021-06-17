@@ -12,4 +12,16 @@ http://localhost
 ## To run test of services Django Restful:   
 docker-compose run django python manage.py test    
     
+### About the project:  
+Used Technologies:   
+#### Backend   
+Django Rest Framwork/ Filters/ Simplejwt   
+PostgreSQL   
+### Frontend   
+React 17/ React router/  Bootstrap/ Axios/  
+### Servers docker-compose:   
+Nginx   
+Python:3.9   
+Node  
+
 # Created by: Jose Santiago Rueda A.    
