@@ -1,0 +1,8 @@
+.dockerignore
+.gitignore
+.git
+
+docker-compose.yml
+.vscode
+.DS_Store
+frontend/node_modules%
