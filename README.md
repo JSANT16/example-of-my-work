@@ -1,7 +1,7 @@
 
 ## Commands to execute:   
 docker-compose up -d   
-##See everthing in:   
+## See everthing in:   
 http://localhost
 
 ## url of API REST DOCS:   
