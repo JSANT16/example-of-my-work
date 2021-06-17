@@ -1,5 +1,6 @@
 
-## Commands to execute:   
+## Commands to execute:     
+#### `docker-compose build`     
 #### `docker-compose up -d`   
 ## See everything in:   
 Open http://localhost to view it in the browser.   

@@ -12,4 +12,4 @@ RUN npm install react-scripts -g --silent
 
 COPY . $NODEDIR
 
-CMD [ "npm","build" ]
+CMD [ "npm","run","build" ]

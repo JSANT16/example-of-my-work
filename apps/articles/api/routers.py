@@ -4,5 +4,5 @@ from apps.articles.api.views import ArticleViewSet, VendorViewSet
 router = DefaultRouter()
 
 router.register('vendor', VendorViewSet)
-router.register('article', ArticleViewSet)
+router.register('article', ArticleViewSet, basename='article')
 urlpatterns = router.urls

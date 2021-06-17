@@ -8,8 +8,10 @@ RUN mkdir $DJANGODIR
 WORKDIR $DJANGODIR
 
 COPY ./requirements.txt $DJANGODIR
-
+ADD ./frontend/build/ $DJANGODIR/frontend/build/
 RUN python -m pip install -r requirements.txt
 COPY . $DJANGODIR
-# RUN python manage.py makemigrations
-# RUN python manage.py migrate
+
+ADD /.docker/django/docker-entrypoint.sh /docker-entrypoint.sh
+RUN chmod a+x /docker-entrypoint.sh
+ENTRYPOINT ["/docker-entrypoint.sh"]
